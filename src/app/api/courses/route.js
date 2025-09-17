@@ -1,3 +1,5 @@
+// api/courses/route.js
+
 import courseData from "@/utils/courses";
 import { NextResponse } from "next/server";
 

@@ -1,3 +1,5 @@
+// api/enroll/[id]/route.js
+
 import courseData from "@/utils/courses";
 import { NextResponse } from "next/server";
 
@@ -70,4 +72,5 @@ export async function DELETE(req, { params }) {
       { status: 500 }
     );
   }
+
 }
