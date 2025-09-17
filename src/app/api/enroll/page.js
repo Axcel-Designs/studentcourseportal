@@ -1,4 +1,4 @@
-// api/enroll/page.js
+// api/enroll/route.js
 
 import courseData from "@/utils/courses";
 import { NextResponse } from "next/server";
