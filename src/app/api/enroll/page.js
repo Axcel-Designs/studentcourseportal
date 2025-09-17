@@ -1,3 +1,5 @@
+// api/enroll/page.js
+
 import courseData from "@/utils/courses";
 import { NextResponse } from "next/server";
 
