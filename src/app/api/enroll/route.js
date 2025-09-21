@@ -1,9 +1,8 @@
 // api/enroll/route.js
 
 import courseData from "@/utils/courses";
+import { enrollments } from "@/utils/enrollments";
 import { NextResponse } from "next/server";
-
-export let enrollments = [];
 
 export async function POST(req) {
   const { courseCode, studentId, studentName } = await req.json();
